@@ -36,11 +36,11 @@ Performance of our model on scene flow metrics
 
 | Method     | EPE    | AccS    | AccR       | ROutliers | Runtime (sec) |
 |---|---|---|---|---|---|
-| FLOT       | 1.216  | 3.0     | 10.3       | 63.9      | 2.01    |
-| NSFPrior   | 0.707  | _19.3_    | _37.8_       | 32.0      | 63.4    |
-| PPWC-Net   | 0.661  | 7.6     | 24.2       | 31.9      | 0.99    |
-| WsRSF      | 0.539  | 17.9    | 37.4       | _22.9_      | 1.46    |
-| PCAcc      | **0.301**  | **26.6**    | **53.4**       | **12.1**      | **0.25**    |
+| [FLOT](https://arxiv.org/abs/2007.11142)       | 1.216  | 3.0     | 10.3       | 63.9      | 2.01    |
+| [NSFPrior](https://arxiv.org/abs/2111.01253)   | 0.707  | _19.3_    | _37.8_       | 32.0      | 63.4    |
+| [PPWC-Net](https://arxiv.org/abs/1911.12408)   | 0.661  | 7.6     | 24.2       | 31.9      | 0.99    |
+| [WsRSF](https://arxiv.org/abs/2102.08945)      | 0.539  | 17.9    | 37.4       | _22.9_      | 1.46    |
+| [PCAcc](https://arxiv.org/abs/2207.12394)      | **0.301**  | **26.6**    | **53.4**       | **12.1**      | **0.25**    |
 | [Our PointPillar](tools/cfgs/nuscenes_models/second_corrector.yaml) | 0.547  | 14.5    | 26.2       | 36.9      | **0.06**    |
 | [Our SECOND](tools/cfgs/nuscenes_models/cbgs_dyn_pp_centerpoint.yaml) | _0.506_  | 16.8    | 30.2       | 33.8      | _0.09_    |
 
